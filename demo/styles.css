@@ -1,0 +1,6 @@
+.container{
+    border: 1px solid greenyellow;
+}
+.container__canvas{
+    border: 1px solid seagreen;
+}
