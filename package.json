@@ -15,6 +15,10 @@
   ],
   "author": "Shubham Biswas (zero)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zero-shubham/slide-in-panel"
+  },
   "dependencies": {
     "core-js": "^3.1.4",
     "react": "^16.8.6",
