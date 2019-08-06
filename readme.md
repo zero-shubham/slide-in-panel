@@ -17,3 +17,5 @@ This component helps to implement “slide in/out on touch” feature for all de
 The default format of the canvas and panel may not suit all, you may fork the source code and edit style.css for Container component and get results of your preference. 
 
 Also in the github repository you’ll find a use-case demo.
+
+Simply start using by, npm install --save slide-in-panel.
