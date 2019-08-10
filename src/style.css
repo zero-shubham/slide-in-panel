@@ -28,6 +28,7 @@ body{
 
 .container__canvas{
     width: 75%;
+    overflow: auto;
 }
 
 .container__canvas.mobile.slide{
@@ -35,17 +36,18 @@ body{
 }
 
 .container__canvas.mobile{
-    width: 95%;
+    width: 97%;
 }
 
 .container__panel{
     width: 25%;
+    z-index: 100;
 }
 
 .container__panel.mobile.slide{
-    width: 35%;
+    width: 60%;
 }
 
 .container__panel.mobile{
-    width: 5%;
+    width: 3%;
 }

@@ -28,9 +28,15 @@ class Container extends Component{
     }
 
     handleTouchEnd = () => {
+        let thresh;
+        if(this.props.threshold){
+            thresh = this.props.threshold;
+        }else{
+            thresh = 40;
+        }
         if(Math.abs(this.state.touch.touchStartX - this.state.touch.touchMoveX) > Math.abs(this.state.touch.touchStartY - this.state.touch.touchMoveY) && 
-            Math.abs(this.state.touch.touchStartX - this.state.touch.touchMoveX)> this.props.threshold?this.props.threshold:40 && 
-            Math.abs(this.state.touch.touchStartY - this.state.touch.touchMoveY)< this.props.threshold?this.props.threshold:40 &&
+            Math.abs(this.state.touch.touchStartX - this.state.touch.touchMoveX)> thresh && 
+            Math.abs(this.state.touch.touchStartY - this.state.touch.touchMoveY)< thresh &&
             this.state.touch.touchStartX !== 0 && this.state.touch.touchStartY !== 0){
                 if(this.state.touch.touchStartX - this.state.touch.touchMoveX < 0){
                     let obj = {...this.state.classSlide};
