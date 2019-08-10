@@ -1,6 +1,6 @@
 {
   "name": "slide-in-panel",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A react component that will make it easy incorporate slide-in panels on with touch screen devices.",
   "main": "main.js",
   "scripts": {
