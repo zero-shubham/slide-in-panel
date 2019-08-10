@@ -18,4 +18,4 @@ The default format of the canvas and panel may not suit all, you may fork the so
 
 Also in the github repository you’ll find a use-case demo.
 
-Simply start using by, npm install --save slide-in-panel.
+[Live demo](http://www.zzer0.com/slide-in-panel/demo/live/)
