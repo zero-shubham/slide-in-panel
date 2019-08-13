@@ -37,7 +37,7 @@ class Container extends Component{
         if(Math.abs(this.state.touch.touchStartX - this.state.touch.touchMoveX) > Math.abs(this.state.touch.touchStartY - this.state.touch.touchMoveY) && 
             Math.abs(this.state.touch.touchStartX - this.state.touch.touchMoveX)> thresh && 
             Math.abs(this.state.touch.touchStartY - this.state.touch.touchMoveY)< thresh &&
-            this.state.touch.touchStartX !== 0 && this.state.touch.touchStartY !== 0){
+            this.state.touch.touchStartX !== 0 && this.state.touch.touchStartY !== 0 && touch.touchMoveX){
                 if(this.state.touch.touchStartX - this.state.touch.touchMoveX < 0){
                     let obj = {...this.state.classSlide};
                     obj.col1 = "container__canvas mobile";
